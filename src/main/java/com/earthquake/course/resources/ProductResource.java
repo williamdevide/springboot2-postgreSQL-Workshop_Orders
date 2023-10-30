@@ -13,7 +13,7 @@ import com.earthquake.course.entities.Product;
 import com.earthquake.course.services.ProductService;
 
 @RestController
-@RequestMapping(value = "/orders")
+@RequestMapping(value = "/products")
 public class ProductResource {
 
 	@Autowired

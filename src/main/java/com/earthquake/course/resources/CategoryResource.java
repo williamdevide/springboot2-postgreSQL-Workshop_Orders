@@ -13,7 +13,7 @@ import com.earthquake.course.entities.Category;
 import com.earthquake.course.services.CategoryService;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/categories")
 public class CategoryResource {
 
 	@Autowired
