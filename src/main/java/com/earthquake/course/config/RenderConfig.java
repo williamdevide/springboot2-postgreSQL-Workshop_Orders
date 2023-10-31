@@ -22,8 +22,8 @@ import com.earthquake.course.repositories.ProductRepository;
 import com.earthquake.course.repositories.UserRepository;
 
 @Configuration
-@Profile("xrailway")
-public class RailwayConfig implements CommandLineRunner{
+@Profile("xrender")
+public class RenderConfig implements CommandLineRunner{
 
 	@Autowired
 	private UserRepository userRepository;
