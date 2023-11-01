@@ -22,8 +22,8 @@ import com.earthquake.course.repositories.ProductRepository;
 import com.earthquake.course.repositories.UserRepository;
 
 @Configuration
-@Profile("render")
-public class RenderConfig implements CommandLineRunner{
+@Profile("vercel")
+public class VercelConfig implements CommandLineRunner{
 
 	@Autowired
 	private UserRepository userRepository;
