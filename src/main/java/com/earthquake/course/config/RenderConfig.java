@@ -22,7 +22,7 @@ import com.earthquake.course.repositories.ProductRepository;
 import com.earthquake.course.repositories.UserRepository;
 
 @Configuration
-@Profile("xrender")
+@Profile("xxx-render")
 public class RenderConfig implements CommandLineRunner{
 
 	@Autowired
